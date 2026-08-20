@@ -1,0 +1,15 @@
+print("1. Decimal a binario")
+print("2. Binario a decimal")
+
+opcion = input("Elige una opción: ")
+
+if opcion == "1":
+    decimal = int(input("Ingresa el número decimal: "))
+    print("Binario:", bin(decimal)[2:])
+
+elif opcion == "2":
+    binario = input("Ingresa el número binario: ")
+    print("Decimal:", int(binario, 2))
+
+else:
+    print("Opción no válida")
