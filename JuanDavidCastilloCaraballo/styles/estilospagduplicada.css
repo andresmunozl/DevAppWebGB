@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20;
+}
+
+img{
+    padding-top: 0.7em;
+}
+
+nav{
+    background-color: steelblue;
+    text-align: center;
+}
+
+nav a{
+    color: #ffffff;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: red;
+}
