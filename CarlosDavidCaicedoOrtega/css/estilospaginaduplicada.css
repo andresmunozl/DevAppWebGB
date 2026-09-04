@@ -32,3 +32,39 @@ nav a:hover{
     color: darkorchid;
     font-size: 18px;
 }
+
+section article{
+    float: left;
+    border: 1px solid black;
+    padding: 1em;
+    height: auto;
+    width: 60%;
+    margin: 0 0.5em 0 0.5em;
+    margin-top: 1em;
+}
+
+
+
+aside{
+    background-color: lightgray;
+    float: right;
+    height: auto;
+    width: 35.5%;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+
+footer{
+    background-color: steelblue;
+    padding-top: 1em;
+    bottom: 0;
+    float: left;
+    width: 100%;
+    position: fixed;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
