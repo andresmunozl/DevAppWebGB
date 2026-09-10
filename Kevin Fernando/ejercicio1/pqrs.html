@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes Épicos - PQRS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- ==================== CABECERA ==================== -->
+    <header>
+        <h1>🎌 Animes Épicos 🎌</h1>
+        <p>El universo de los animes que marcaron historia</p>
+    </header>
+
+    <!-- ==================== BARRA DE NAVEGACIÓN ==================== -->
+    <nav>
+        <a href="index.html">🏠 Inicio</a>
+        <a href="contacto.html">📧 Contáctenos</a>
+        <a href="pqrs.html">📝 PQRS</a>
+        <a href="index.html#galeria">🖼️ Galería</a>
+        <a href="index.html#videos">🎬 Videos</a>
+    </nav>
+
+    <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+    <div class="container">
+        <section>
+
+            <article>
+                <h2>📝 PQRS - Peticiones, Quejas, Reclamos y Sugerencias</h2>
+                <p>
+                    Tu opinión es muy importante para nosotros. A través de este formulario puedes 
+                    realizar <strong>peticiones</strong>, presentar <strong>quejas</strong>, hacer 
+                    <strong>reclamos</strong> o enviarnos <strong>sugerencias</strong> para mejorar 
+                    nuestro sitio web. Responderemos tu solicitud en un plazo máximo de 5 días hábiles.
+                </p>
+                <blockquote>
+                    "La voz de los fans es la que guía el mundo del anime."
+                </blockquote>
+            </article>
+
+            <!-- ==================== FORMULARIO PQRS ==================== -->
+            <article>
+                <div class="form-container">
+                    <h2>Formulario PQRS</h2>
+                    <form action="#" method="post">
+
+                        <!-- Tipo de solicitud -->
+                        <div class="form-group">
+                            <label for="tipo">Tipo de solicitud:</label>
+                            <select id="tipo" name="tipo" required>
+                                <option value="">-- Selecciona una opción --</option>
+                                <option value="peticion">📋 Petición</option>
+                                <option value="queja">😤 Queja</option>
+                                <option value="reclamo">📢 Reclamo</option>
+                                <option value="sugerencia">💡 Sugerencia</option>
+                            </select>
+                        </div>
+
+                        <!-- Datos personales -->
+                        <div class="form-group">
+                            <label for="nombres">Nombres:</label>
+                            <input type="text" id="nombres" name="nombres" placeholder="Ej: Jefferson Andrés" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Ej: Muñoz Luligo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="documento">Número de documento:</label>
+                            <input type="text" id="documento" name="documento" placeholder="Ej: 1234567890" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email_pqrs">Correo electrónico:</label>
+                            <input type="email" id="email_pqrs" name="email_pqrs" placeholder="Ej: usuario@correo.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono_pqrs">Teléfono de contacto:</label>
+                            <input type="tel" id="telefono_pqrs" name="telefono_pqrs" placeholder="Ej: +57 300 123 4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fecha">Fecha de la solicitud:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+
+                        <!-- Anime relacionado -->
+                        <div class="form-group">
+                            <label>Anime relacionado (opcional):</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="anime" value="attack-on-titan"> Attack on Titan</label>
+                                <label><input type="radio" name="anime" value="demon-slayer"> Demon Slayer</label>
+                                <label><input type="radio" name="anime" value="jujutsu-kaisen"> Jujutsu Kaisen</label>
+                                <label><input type="radio" name="anime" value="one-piece"> One Piece</label>
+                                <label><input type="radio" name="anime" value="naruto"> Naruto</label>
+                                <label><input type="radio" name="anime" value="otro"> Otro</label>
+                            </div>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="form-group">
+                            <label for="descripcion">Descripción detallada:</label>
+                            <textarea id="descripcion" name="descripcion" placeholder="Describe tu petición, queja, reclamo o sugerencia con el mayor detalle posible..." required></textarea>
+                        </div>
+
+                        <!-- Adjuntos -->
+                        <div class="form-group">
+                            <label for="adjunto">Adjuntar archivo (opcional):</label>
+                            <input type="file" id="adjunto" name="adjunto" style="padding: 10px; background: rgba(22,33,62,0.8); border-radius: 10px; color: #e0e0e0;">
+                        </div>
+
+                        <!-- Aceptación -->
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="terminos" value="acepto" required>
+                                Acepto la política de tratamiento de datos personales
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Enviar Solicitud PQRS">
+                        </div>
+
+                    </form>
+                </div>
+            </article>
+
+            <!-- ==================== INFORMACIÓN PQRS ==================== -->
+            <article>
+                <h2>📋 ¿Qué significa cada tipo de solicitud?</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Descripción</th>
+                            <th>Tiempo de respuesta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>📋 Petición</strong></td>
+                            <td>Solicitud de información o servicios relacionados con el sitio</td>
+                            <td>3 días hábiles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>😤 Queja</strong></td>
+                            <td>Manifestación de disgusto por el servicio o contenido recibido</td>
+                            <td>5 días hábiles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>📢 Reclamo</strong></td>
+                            <td>Exigencia de derechos o corrección de una situación</td>
+                            <td>5 días hábiles</td>
+                        </tr>
+                        <tr>
+                            <td><strong>💡 Sugerencia</strong></td>
+                            <td>Propuesta para mejorar el sitio o agregar nuevo contenido</td>
+                            <td>3 días hábiles</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+        </section>
+
+        <!-- ==================== BARRA LATERAL ==================== -->
+        <aside>
+            <h3>🔗 Enlaces a Otros Sitios</h3>
+            <ul>
+                <li><a href="https://www.crunchyroll.com" target="_blank">🌐 Crunchyroll</a></li>
+                <li><a href="https://www.funimation.com" target="_blank">🌐 Funimation</a></li>
+                <li><a href="https://myanimelist.net" target="_blank">🌐 MyAnimeList</a></li>
+                <li><a href="https://www.animenewsnetwork.com" target="_blank">🌐 Anime News Network</a></li>
+                <li><a href="https://www.netflix.com" target="_blank">🌐 Netflix Anime</a></li>
+            </ul>
+
+            <h3>📌 Páginas de Nuestro Sitio</h3>
+            <ul>
+                <li><a href="index.html">🏠 Página Principal</a></li>
+                <li><a href="contacto.html">📧 Contáctenos</a></li>
+                <li><a href="pqrs.html">📝 Formulario PQRS</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- ==================== PIE DE PÁGINA ==================== -->
+    <footer>
+        <p>
+            <strong>Animes Épicos</strong> &copy; 2026 | Creado con pasión por fanáticos del anime<br>
+            Páginas del sitio: 
+            <a href="index.html">Inicio</a> | 
+            <a href="contacto.html">Contacto</a> | 
+            <a href="pqrs.html">PQRS</a>
+        </p>
+    </footer>
+
+</body>
+</html>
