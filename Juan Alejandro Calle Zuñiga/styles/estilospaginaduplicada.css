@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    
+}
+
+body{
+    font-family: sans-serif;
+    font: size 16px; ;
+}
+
+img{
+    width: 25%;
+    padding-top: 0.7em;
+}
+
+nav{
+    text-align: center;
+    background-color: steelblue;
+}
+a{
+    color: aliceblue;
+}
+nav a {
+    color: aliceblue;
+    padding: lem;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:hover{
+    color: brown;
+    font-size:50;
+}
