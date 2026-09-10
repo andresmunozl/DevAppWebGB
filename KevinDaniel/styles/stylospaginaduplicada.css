@@ -14,7 +14,7 @@ img {
 
 nav {
     text-align: center;
-    background-color: blue;
+    background-color: steelblue;
 }
 
 nav a{
@@ -28,3 +28,38 @@ nav a:hover {
     color: rgb(226, 43, 43);
 
 }
+
+section {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+aside {
+    width: 37%;
+    float: left;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+/* 2. Los bordes grises y fondo para cada artículo */
+article {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+/* 3. Estilo para el pie de página */
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* Limpia el flotado anterior */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}   
+
