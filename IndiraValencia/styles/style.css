@@ -1,0 +1,25 @@
+* {
+    margin: 20px;
+    background-color: rgba(254, 25, 4, 0.425);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    color: rgb(226, 78, 9);
+    font-size: 20px;
+}
+
+    pre {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    .colorTexto {
+        color: rgb(39, 5, 192);
+        font-size: 30px;
+    }
+
+    .tipoTexto {
+        font-family: 'arial', 'Arial Narrow', Arial, sans-serif;
+    }

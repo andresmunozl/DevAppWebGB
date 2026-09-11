@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Imagen HTML5 */
+body > img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #468bb5;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+}
+
+/* Enlaces */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+}
+
+/* Sección izquierda */
+section {
+    width: 60%;
+}
+
+/* Artículos */
+article {
+    border: 1px solid #ddd;
+    margin: 8px;
+    padding: 10px;
+}
+
+/* Texto */
+article p {
+    margin: 0;
+}
+
+/* Parte derecha */
+aside {
+    width: 40%;
+    border: 1px solid #ddd;
+    margin: 8px;
+    padding: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #468bb5;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
