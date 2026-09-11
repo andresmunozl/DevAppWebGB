@@ -8,27 +8,53 @@ body{
 }
 
 img{
-    width: 35%;
     padding-top: 0.7em;
 }
 
 nav{
     text-align: center;
-    background-color: steelblue;
-}
-
-a{
-    color: white;
+    background-color: steelblue;        
 }
 
 nav a{
     color:white;
     padding: 1em;
-    text-decoration: none;
     display: inline-block;
 }
 
 nav a:hover{
-    color: darkorchid;
-    font-size: 18px;
+    color: rgb(234, 10, 10);
 }
+
+section {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+aside {
+    width: 37%;
+    float: right;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 10px; 
+}
+
+article {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
